@@ -1,0 +1,715 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="dark">
+<head>
+  
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="Vakiti Siddu — Frontend Developer & Java Enthusiast from Hyderabad, India. Building modern, responsive web experiences." />
+  <meta name="keywords" content="Vakiti Siddu, Frontend Developer, Angular, TypeScript, JavaScript, Java, Portfolio, Hyderabad" />
+  <meta name="author" content="Vakiti Siddu" />
+
+  <!-- Open Graph (for social sharing previews) -->
+  <meta property="og:title" content="Vakiti Siddu — Frontend Developer" />
+  <meta property="og:description" content="Frontend Developer skilled in Angular, TypeScript, JavaScript & DSA. Building modern web experiences." />
+  <meta property="og:type" content="website" />
+
+  <title>Vakiti Siddu — Frontend Developer</title>
+
+  <!-- Google Fonts: Syne (display) + DM Sans (body) -->
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Syne:wght@400;500;600;700;800&family=DM+Sans:ital,wght@0,300;0,400;0,500;1,300&display=swap" rel="stylesheet" />
+
+  <!-- Font Awesome 6 Icons -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" />
+
+  <!-- Portfolio Stylesheet -->
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <!-- ─── AMBIENT ORB BACKGROUNDS ─────────────────────────────── -->
+  <div class="orb orb-1"></div>
+  <div class="orb orb-2"></div>
+  <div class="orb orb-3"></div>
+
+  <!-- ═══════════════════════════════════════════════════════════
+       NAVIGATION
+  ═══════════════════════════════════════════════════════════ -->
+  <nav id="navbar">
+    <a href="#home" class="nav-logo">VS.</a>
+
+    <ul class="nav-links">
+      <li><a href="#home"     class="active" data-nav>Home</a></li>
+      <li><a href="#about"    data-nav>About</a></li>
+      <li><a href="#skills"   data-nav>Skills</a></li>
+      <li><a href="#projects" data-nav>Projects</a></li>
+      <li><a href="#services" data-nav>Services</a></li>
+      <li><a href="#contact"  data-nav>Contact</a></li>
+    </ul>
+
+    <div class="nav-right">
+      <button class="theme-toggle" id="themeToggle" aria-label="Toggle dark/light theme">
+        <i class="fa-solid fa-moon" id="themeIcon"></i>
+      </button>
+      <button class="hamburger" id="hamburger" aria-label="Open mobile menu">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+  </nav>
+
+  <!-- Mobile fullscreen menu -->
+  <div class="mobile-menu" id="mobileMenu">
+    <a href="#home"     class="mob-nav">Home</a>
+    <a href="#about"    class="mob-nav">About</a>
+    <a href="#skills"   class="mob-nav">Skills</a>
+    <a href="#projects" class="mob-nav">Projects</a>
+    <a href="#services" class="mob-nav">Services</a>
+    <a href="#contact"  class="mob-nav">Contact</a>
+  </div>
+
+  <!-- ═══════════════════════════════════════════════════════════
+       HOME / HERO
+  ═══════════════════════════════════════════════════════════ -->
+  <section id="home">
+    <div class="hero-inner">
+
+      <!-- Left: Text content -->
+      <div class="hero-text">
+        <div class="hero-badge fade-up">
+          <span class="dot"></span>
+          Available for hire &nbsp;·&nbsp; Hyderabad, India
+        </div>
+
+        <h1 class="hero-name fade-up fade-up-delay-1">
+          Vakiti
+          <span class="highlight">Siddu.</span>
+        </h1>
+
+        <p class="hero-sub fade-up fade-up-delay-2">
+          <strong>Frontend Developer</strong> &amp; <strong>Java · DSA Enthusiast</strong><br>
+          Building modern, performant &amp; beautifully crafted web experiences.
+        </p>
+
+        <div class="hero-ctas fade-up fade-up-delay-3">
+          <a href="#projects" class="btn btn-primary">
+            <i class="fa-solid fa-rocket"></i> View My Work
+          </a>
+          <a href="https://drive.google.com/drive/folders/1OQH8lSsMJzxtncQwadA9IJpLT0F8NRPc" target="_blank" class="btn btn-outline">
+            <i class="fa-solid fa-file-arrow-down"></i> Download CV
+          </a>
+        </div>
+
+        <div class="hero-socials fade-up fade-up-delay-4">
+          <a href="https://github.com/siddumudhiraj"                            target="_blank" aria-label="GitHub">   <i class="fa-brands fa-github"></i></a>
+          <a href="https://www.linkedin.com/in/siddu-mudhiraj-440a23300/"       target="_blank" aria-label="LinkedIn"> <i class="fa-brands fa-linkedin-in"></i></a>
+          <a href="https://leetcode.com/u/M8e2oyQW9s/"                          target="_blank" aria-label="LeetCode"><i class="fa-solid fa-code"></i></a>
+          <a href="mailto:siddumudiraj789@gmail.com"                                             aria-label="Email">   <i class="fa-solid fa-envelope"></i></a>
+        </div>
+
+        <div class="stats-row fade-up fade-up-delay-4">
+          <div class="stat-item">
+            <div class="stat-num">4+</div>
+            <div class="stat-label">Projects built</div>
+          </div>
+          <div class="stat-item">
+            <div class="stat-num">3+</div>
+            <div class="stat-label">Certifications</div>
+          </div>
+          <div class="stat-item">
+            <div class="stat-num">DSA</div>
+            <div class="stat-label">on LeetCode</div>
+          </div>
+        </div>
+
+        <div class="scroll-hint fade-up">
+          <span class="scroll-line"></span> Scroll to explore
+        </div>
+      </div>
+
+      <!-- Right: Avatar -->
+      <div class="hero-avatar-wrap fade-up fade-up-delay-2">
+        <div class="avatar-ring">
+          <div class="avatar-inner">VS</div>
+        </div>
+        <div class="avatar-float float-1"><span class="float-icon">⚡</span> Angular Dev</div>
+        <div class="avatar-float float-2"><span class="float-icon">🎓</span> B.Tech CSE 2026</div>
+      </div>
+
+    </div>
+  </section>
+
+  <div class="divider"></div>
+
+  <!-- ═══════════════════════════════════════════════════════════
+       ABOUT
+  ═══════════════════════════════════════════════════════════ -->
+  <section id="about">
+    <div class="section-inner">
+      <div class="section-tag fade-up"><i class="fa-solid fa-user"></i> About me</div>
+      <h2 class="section-title fade-up">Crafting the web,<br><span>one component at a time.</span></h2>
+
+      <div class="about-grid">
+
+        <!-- Left: Bio + Education -->
+        <div class="about-text fade-up">
+          <p>
+            I'm <strong>Vakiti Siddu</strong>, a <strong>Frontend Developer</strong> from Hyderabad, India,
+            pursuing my B.Tech in Computer Science (Data Science) at Sri Indu College of Engineering &amp;
+            Technology, graduating in May 2026.
+          </p>
+          <p>
+            I'm skilled in <strong>Angular, TypeScript, JavaScript, HTML5, and CSS3</strong> with a strong understanding
+            of modern web development principles and responsive UI design. I care deeply about clean,
+            maintainable code and visually delightful experiences.
+          </p>
+          <p>
+            Beyond the frontend, I have a solid foundation in <strong>Java, OOPs, Data Structures &amp;
+            Algorithms</strong>, and have built projects spanning deep learning, cybersecurity, backend APIs,
+            and e-commerce.
+          </p>
+          <p>
+            Currently open to <strong>fresher roles, internships, and freelance opportunities</strong> where
+            I can grow fast and contribute meaningfully from day one.
+          </p>
+
+          <div style="margin-top:1.75rem; display:flex; gap:0.75rem; flex-wrap:wrap;">
+            <a href="https://drive.google.com/drive/folders/1OQH8lSsMJzxtncQwadA9IJpLT0F8NRPc" target="_blank" class="btn btn-primary">
+              <i class="fa-solid fa-file-arrow-down"></i> Download Resume
+            </a>
+            <a href="#contact" class="btn btn-outline">
+              <i class="fa-solid fa-paper-plane"></i> Hire Me
+            </a>
+          </div>
+
+          <!-- Education -->
+          <div style="margin-top:2.5rem;">
+            <div class="section-tag" style="font-size:0.72rem;"><i class="fa-solid fa-graduation-cap"></i> Education</div>
+            <div class="edu-timeline" style="margin-top:1rem;">
+              <div class="edu-item">
+                <div class="edu-degree">B.Tech — Computer Science Engineering (Data Science)</div>
+                <div class="edu-school">Sri Indu College of Engineering &amp; Technology</div>
+                <div class="edu-year">Aug 2022 – May 2026</div>
+                <div class="edu-cgpa"><i class="fa-solid fa-star"></i> CGPA: 7.4 / 10.0</div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Right: Cards + Certs -->
+        <div>
+          <div class="about-cards">
+            <div class="about-card glass fade-up fade-up-delay-1">
+              <div class="about-card-icon"><i class="fa-solid fa-palette"></i></div>
+              <div>
+                <h4>UI/UX Design Implementation</h4>
+                <p>Creating visually appealing, accessible interfaces with smooth animations and responsive layouts.</p>
+              </div>
+            </div>
+            <div class="about-card glass fade-up fade-up-delay-2">
+              <div class="about-card-icon"><i class="fa-solid fa-code"></i></div>
+              <div>
+                <h4>Frontend Development</h4>
+                <p>Building modern, performant web apps with Angular, TypeScript, HTML5 &amp; CSS3 best practices.</p>
+              </div>
+            </div>
+            <div class="about-card glass fade-up fade-up-delay-3">
+              <div class="about-card-icon"><i class="fa-solid fa-brain"></i></div>
+              <div>
+                <h4>Problem Solving &amp; DSA</h4>
+                <p>Actively practising Data Structures &amp; Algorithms on LeetCode to strengthen algorithmic thinking.</p>
+              </div>
+            </div>
+            <div class="about-card glass fade-up fade-up-delay-4">
+              <div class="about-card-icon"><i class="fa-brands fa-java"></i></div>
+              <div>
+                <h4>Java &amp; OOPs</h4>
+                <p>Strong foundation in core Java, object-oriented design, and backend-ready programming skills.</p>
+              </div>
+            </div>
+          </div>
+
+          <!-- Certifications -->
+          <div style="margin-top:2rem;">
+            <div class="section-tag" style="font-size:0.72rem;"><i class="fa-solid fa-certificate"></i> Certifications</div>
+            <div class="certs-grid" style="margin-top:1rem;">
+              <div class="cert-card glass">
+                <div class="cert-badge"><i class="fa-solid fa-chart-bar"></i></div>
+                <div>
+                  <div class="cert-name">Deloitte Job Simulation</div>
+                  <div class="cert-by">Data Analysis &amp; Forensic Technology</div>
+                </div>
+              </div>
+              <div class="cert-card glass">
+                <div class="cert-badge"><i class="fa-brands fa-google"></i></div>
+                <div>
+                  <div class="cert-name">Intro to Generative AI</div>
+                  <div class="cert-by">Google</div>
+                </div>
+              </div>
+              <div class="cert-card glass">
+                <div class="cert-badge"><i class="fa-solid fa-keyboard"></i></div>
+                <div>
+                  <div class="cert-name">Intermediate Assessment</div>
+                  <div class="cert-by">Typing.com · 40 WPM, 95% accuracy</div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <div class="divider"></div>
+
+  <!-- ═══════════════════════════════════════════════════════════
+       SKILLS
+  ═══════════════════════════════════════════════════════════ -->
+  <section id="skills">
+    <div class="section-inner">
+      <div class="section-tag fade-up"><i class="fa-solid fa-layer-group"></i> Tech stack</div>
+      <h2 class="section-title fade-up">Skills &amp; <span>Technologies</span></h2>
+      <p class="section-desc fade-up">A curated look at the tools, languages, and frameworks I work with — and keep learning.</p>
+
+      <!-- Category filter tabs -->
+      <div class="skills-cats fade-up">
+        <button class="skill-cat-btn active" data-cat="frontend">Frontend</button>
+        <button class="skill-cat-btn"        data-cat="backend">Backend &amp; DB</button>
+        <button class="skill-cat-btn"        data-cat="cs">CS Fundamentals</button>
+        <button class="skill-cat-btn"        data-cat="tools">Tools &amp; DevOps</button>
+      </div>
+
+      <!-- Frontend panel -->
+      <div class="skills-panel active" id="cat-frontend">
+        <div class="skill-card glass fade-up">
+          <div class="skill-top"><div class="skill-name-wrap"><span class="skill-icon">🌐</span><span class="skill-name">HTML5</span></div><span class="skill-pct">92%</span></div>
+          <div class="skill-bar"><div class="skill-fill" data-pct="92"></div></div>
+          <div class="skill-sub">Semantic, accessible markup</div>
+        </div>
+        <div class="skill-card glass fade-up fade-up-delay-1">
+          <div class="skill-top"><div class="skill-name-wrap"><span class="skill-icon">🎨</span><span class="skill-name">CSS3</span></div><span class="skill-pct">88%</span></div>
+          <div class="skill-bar"><div class="skill-fill" data-pct="88"></div></div>
+          <div class="skill-sub">Flexbox, Grid, Animations, Responsive</div>
+        </div>
+        <div class="skill-card glass fade-up fade-up-delay-2">
+          <div class="skill-top"><div class="skill-name-wrap"><span class="skill-icon">⚡</span><span class="skill-name">JavaScript</span></div><span class="skill-pct">82%</span></div>
+          <div class="skill-bar"><div class="skill-fill" data-pct="82"></div></div>
+          <div class="skill-sub">ES6+, DOM, Async/Await, APIs</div>
+        </div>
+        <div class="skill-card glass fade-up fade-up-delay-3">
+          <div class="skill-top"><div class="skill-name-wrap"><span class="skill-icon">🅰️</span><span class="skill-name">Angular</span></div><span class="skill-pct">75%</span></div>
+          <div class="skill-bar"><div class="skill-fill" data-pct="75"></div></div>
+          <div class="skill-sub">Components, Services, Routing, RxJS basics</div>
+        </div>
+        <div class="skill-card glass fade-up fade-up-delay-4">
+          <div class="skill-top"><div class="skill-name-wrap"><span class="skill-icon">🔷</span><span class="skill-name">TypeScript</span></div><span class="skill-pct">70%</span></div>
+          <div class="skill-bar"><div class="skill-fill" data-pct="70"></div></div>
+          <div class="skill-sub">Type-safe JS, interfaces, generics</div>
+        </div>
+      </div>
+
+      <!-- Backend & DB panel -->
+      <div class="skills-panel" id="cat-backend">
+        <div class="skill-card glass fade-up">
+          <div class="skill-top"><div class="skill-name-wrap"><span class="skill-icon">☕</span><span class="skill-name">Java</span></div><span class="skill-pct">80%</span></div>
+          <div class="skill-bar"><div class="skill-fill" data-pct="80"></div></div>
+          <div class="skill-sub">Core Java, OOPs, Collections</div>
+        </div>
+        <div class="skill-card glass fade-up fade-up-delay-1">
+          <div class="skill-top"><div class="skill-name-wrap"><span class="skill-icon">🍃</span><span class="skill-name">Spring Boot</span></div><span class="skill-pct">60%</span></div>
+          <div class="skill-bar"><div class="skill-fill" data-pct="60"></div></div>
+          <div class="skill-sub">REST APIs, H2, Kafka basics</div>
+        </div>
+        <div class="skill-card glass fade-up fade-up-delay-2">
+          <div class="skill-top"><div class="skill-name-wrap"><span class="skill-icon">🗄️</span><span class="skill-name">MySQL</span></div><span class="skill-pct">72%</span></div>
+          <div class="skill-bar"><div class="skill-fill" data-pct="72"></div></div>
+          <div class="skill-sub">Relational design, queries, joins</div>
+        </div>
+        <div class="skill-card glass fade-up fade-up-delay-3">
+          <div class="skill-top"><div class="skill-name-wrap"><span class="skill-icon">🔌</span><span class="skill-name">REST APIs</span></div><span class="skill-pct">68%</span></div>
+          <div class="skill-bar"><div class="skill-fill" data-pct="68"></div></div>
+          <div class="skill-sub">API integration, async data handling</div>
+        </div>
+      </div>
+
+      <!-- CS Fundamentals panel -->
+      <div class="skills-panel" id="cat-cs">
+        <div class="skill-card glass fade-up">
+          <div class="skill-top"><div class="skill-name-wrap"><span class="skill-icon">🧩</span><span class="skill-name">Data Structures</span></div><span class="skill-pct">78%</span></div>
+          <div class="skill-bar"><div class="skill-fill" data-pct="78"></div></div>
+          <div class="skill-sub">Arrays, Trees, Graphs, Stacks, Queues</div>
+        </div>
+        <div class="skill-card glass fade-up fade-up-delay-1">
+          <div class="skill-top"><div class="skill-name-wrap"><span class="skill-icon">🔢</span><span class="skill-name">Algorithms</span></div><span class="skill-pct">72%</span></div>
+          <div class="skill-bar"><div class="skill-fill" data-pct="72"></div></div>
+          <div class="skill-sub">Sorting, BFS/DFS, DP, Greedy</div>
+        </div>
+        <div class="skill-card glass fade-up fade-up-delay-2">
+          <div class="skill-top"><div class="skill-name-wrap"><span class="skill-icon">📐</span><span class="skill-name">OOPs</span></div><span class="skill-pct">85%</span></div>
+          <div class="skill-bar"><div class="skill-fill" data-pct="85"></div></div>
+          <div class="skill-sub">Encapsulation, Polymorphism, Inheritance</div>
+        </div>
+      </div>
+
+      <!-- Tools panel -->
+      <div class="skills-panel" id="cat-tools">
+        <div class="skill-card glass fade-up">
+          <div class="skill-top"><div class="skill-name-wrap"><span class="skill-icon">🔀</span><span class="skill-name">Git &amp; GitHub</span></div><span class="skill-pct">85%</span></div>
+          <div class="skill-bar"><div class="skill-fill" data-pct="85"></div></div>
+          <div class="skill-sub">Version control, branches, PRs</div>
+        </div>
+        <div class="skill-card glass fade-up fade-up-delay-1">
+          <div class="skill-top"><div class="skill-name-wrap"><span class="skill-icon">💻</span><span class="skill-name">VS Code</span></div><span class="skill-pct">88%</span></div>
+          <div class="skill-bar"><div class="skill-fill" data-pct="88"></div></div>
+          <div class="skill-sub">Daily IDE, extensions, debugging</div>
+        </div>
+        <div class="skill-card glass fade-up fade-up-delay-2">
+          <div class="skill-top"><div class="skill-name-wrap"><span class="skill-icon">📦</span><span class="skill-name">npm / Package Mgmt</span></div><span class="skill-pct">65%</span></div>
+          <div class="skill-bar"><div class="skill-fill" data-pct="65"></div></div>
+          <div class="skill-sub">Dependency &amp; build management</div>
+        </div>
+        <div class="skill-card glass fade-up fade-up-delay-3">
+          <div class="skill-top"><div class="skill-name-wrap"><span class="skill-icon">☁️</span><span class="skill-name">Azure (Basics)</span></div><span class="skill-pct">40%</span></div>
+          <div class="skill-bar"><div class="skill-fill" data-pct="40"></div></div>
+          <div class="skill-sub">Cloud fundamentals, learning in progress</div>
+        </div>
+      </div>
+
+      <!-- Achievements -->
+      <div style="margin-top:4rem;">
+        <div class="section-tag fade-up"><i class="fa-solid fa-trophy"></i> Achievements</div>
+        <div class="achievements-grid">
+          <div class="achieve-card glass fade-up">
+            <div class="achieve-icon">🏆</div>
+            <div class="achieve-title">DSA on LeetCode</div>
+            <div class="achieve-desc">Actively solving problems to strengthen algorithmic thinking and competitive coding skills.</div>
+          </div>
+          <div class="achieve-card glass fade-up fade-up-delay-1">
+            <div class="achieve-icon">🚀</div>
+            <div class="achieve-title">Multiple Real-World Projects</div>
+            <div class="achieve-desc">Built projects spanning frontend development, interactive web apps, and backend simulations using modern technologies.</div>
+          </div>
+          <div class="achieve-card glass fade-up fade-up-delay-2">
+            <div class="achieve-icon">🛍️</div>
+            <div class="achieve-title">Luxury E-Commerce Platform</div>
+            <div class="achieve-desc">Designed a fully responsive e-commerce site with advanced animations, product filtering, and cart functionality.</div>
+          </div>
+          <div class="achieve-card glass fade-up fade-up-delay-3">
+            <div class="achieve-icon">⌨️</div>
+            <div class="achieve-title">Typing Proficiency Achievement – 40 WPM, 95% Accuracy</div>
+            <div class="achieve-desc">Achieved 40 WPM with 95% accuracy in the Intermediate Typing Assessment, showcasing productivity, consistency, and efficient keyboarding skills.</div>
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </section>
+
+  <div class="divider"></div>
+
+  <!-- ═══════════════════════════════════════════════════════════
+       PROJECTS
+  ═══════════════════════════════════════════════════════════ -->
+  <section id="projects">
+    <div class="section-inner">
+      <div class="section-tag fade-up"><i class="fa-solid fa-folder-open"></i> Portfolio</div>
+      <h2 class="section-title fade-up">Featured <span>Projects</span></h2>
+      <p class="section-desc fade-up">A selection of real-world projects that showcase my skills across frontend and backend development.</p>
+
+      <div class="projects-grid">
+
+        <!-- Project 1: E-Commerce (Featured) -->
+        <div class="project-card glass featured fade-up">
+          <div class="project-visual vis-purple">
+            <svg width="300" height="200" viewBox="0 0 300 200" fill="none"><circle cx="150" cy="100" r="120" stroke="white" stroke-width="1"/><circle cx="150" cy="100" r="80" stroke="white" stroke-width="0.5"/><circle cx="150" cy="100" r="40" stroke="white" stroke-width="0.5"/></svg>
+            <div class="project-visual-inner">
+              <span class="project-emoji">🛍️</span>
+              <div class="project-visual-title">E-Commerce</div>
+            </div>
+          </div>
+          <div class="project-body">
+            <div class="project-tags"><span class="featured-label"><i class="fa-solid fa-star"></i> Featured</span></div>
+            <h3 class="project-h">Luxury Fashion E-Commerce Web App</h3>
+            <p class="project-desc">A modern, fully responsive luxury fashion e-commerce platform featuring product filtering, shopping cart functionality, advanced CSS animations, and a premium UI — built entirely with vanilla HTML, CSS &amp; JS.</p>
+            <div class="project-tags">
+              <span class="tech-pill">HTML5</span>
+              <span class="tech-pill">CSS3</span>
+              <span class="tech-pill">JavaScript</span>
+              <span class="tech-pill">Flexbox</span>
+              <span class="tech-pill">CSS Grid</span>
+              <span class="tech-pill">Animations</span>
+            </div>
+            <div class="project-links" style="margin-top:1rem;">
+              <a class="project-link" href="https://github.com/siddumudhiraj/Projects/tree/main" target="_blank"><i class="fa-brands fa-github"></i> GitHub</a>
+            </div>
+          </div>
+        </div>
+
+        <!-- Project 2: Personal Portfolio Website (Featured) -->
+        <div class="project-card glass featured fade-up fade-up-delay-1">
+          <div class="project-visual vis-red">
+            <svg width="300" height="200" viewBox="0 0 300 200" fill="none"><rect x="50" y="50" width="200" height="100" rx="8" stroke="white" stroke-width="1"/><line x1="50" y1="100" x2="250" y2="100" stroke="white" stroke-width="0.5"/></svg>
+            <div class="project-visual-inner">
+              <span class="project-emoji">💼</span>
+              <div class="project-visual-title">Portfolio Site</div>
+            </div>
+          </div>
+          <div class="project-body">
+            <div class="project-tags"><span class="featured-label"><i class="fa-solid fa-star"></i> Featured</span></div>
+            <h3 class="project-h">Personal Portfolio Website</h3>
+            <p class="project-desc">A modern, fully responsive personal portfolio with a dark glassmorphism aesthetic, smooth scroll animations, dark/light mode, and interactive project showcases — built entirely with vanilla HTML, CSS &amp; JS.</p>
+            <div class="project-tags">
+              <span class="tech-pill">HTML5</span>
+              <span class="tech-pill">CSS3</span>
+              <span class="tech-pill">JavaScript</span>
+              <span class="tech-pill">Responsive Design</span>
+              <span class="tech-pill">Animations</span>
+            </div>
+            <div class="project-links" style="margin-top:1rem;">
+              <a class="project-link" href="https://github.com/siddumudhiraj/Projects/tree/main" target="_blank"><i class="fa-brands fa-github"></i> GitHub</a>
+            </div>
+          </div>
+        </div>
+
+        <!-- Project 3: Memory Game -->
+        <div class="project-card glass fade-up fade-up-delay-2">
+          <div class="project-visual vis-teal">
+            <svg width="300" height="200" viewBox="0 0 300 200" fill="none"><path d="M60 140 Q150 60 240 140" stroke="white" stroke-width="1" fill="none"/><path d="M60 120 Q150 40 240 120" stroke="white" stroke-width="0.5" fill="none"/></svg>
+            <div class="project-visual-inner">
+              <span class="project-emoji">🎮</span>
+              <div class="project-visual-title">Memory Game</div>
+            </div>
+          </div>
+          <div class="project-body">
+            <h3 class="project-h">Memory Game (Pokémon Edition)</h3>
+            <p class="project-desc">An interactive browser-based memory matching game featuring Pokémon-themed cards, score tracking, and smooth flip animations — built with vanilla JavaScript and DOM manipulation.</p>
+            <div class="project-tags">
+              <span class="tech-pill">HTML5</span>
+              <span class="tech-pill">CSS3</span>
+              <span class="tech-pill">JavaScript</span>
+              <span class="tech-pill">DOM Manipulation</span>
+            </div>
+            <div class="project-links" style="margin-top:1rem;">
+              <a class="project-link" href="https://github.com/siddumudhiraj/Projects/tree/main/Memory_game" target="_blank"><i class="fa-brands fa-github"></i> GitHub</a>
+            </div>
+          </div>
+        </div>
+
+        <!-- Project 4: JPMorgan Simulation -->
+        <div class="project-card glass fade-up fade-up-delay-3">
+          <div class="project-visual vis-blue">
+            <svg width="300" height="200" viewBox="0 0 300 200" fill="none"><rect x="100" y="60" width="100" height="80" rx="4" stroke="white" stroke-width="1"/><line x1="100" y1="100" x2="200" y2="100" stroke="white" stroke-width="0.5"/><line x1="150" y1="60" x2="150" y2="140" stroke="white" stroke-width="0.5"/></svg>
+            <div class="project-visual-inner">
+              <span class="project-emoji">🏦</span>
+              <div class="project-visual-title">Fintech Simulation</div>
+            </div>
+          </div>
+          <div class="project-body">
+            <h3 class="project-h">JPMorganChase Software Engineering Simulation</h3>
+            <p class="project-desc">A Forage job simulation replicating real JPMorgan software engineering tasks — building REST APIs with Spring Boot, Kafka messaging, and H2 in-memory database.</p>
+            <div class="project-tags">
+              <span class="tech-pill">Java</span>
+              <span class="tech-pill">Spring Boot</span>
+              <span class="tech-pill">Kafka</span>
+              <span class="tech-pill">REST APIs</span>
+              <span class="tech-pill">H2 DB</span>
+            </div>
+            <div class="project-links" style="margin-top:1rem;">
+              <a class="project-link" href="https://github.com/siddumudhiraj/JPMorganChase-s-job-simulation" target="_blank"><i class="fa-brands fa-github"></i> GitHub</a>
+            </div>
+          </div>
+        </div>
+
+      </div>
+
+      <div style="text-align:center; margin-top:2.5rem;" class="fade-up">
+        <a href="https://github.com/siddumudhiraj" target="_blank" class="btn btn-outline">
+          <i class="fa-brands fa-github"></i> View All on GitHub
+        </a>
+      </div>
+    </div>
+  </section>
+
+  <div class="divider"></div>
+
+  <!-- ═══════════════════════════════════════════════════════════
+       SERVICES
+  ═══════════════════════════════════════════════════════════ -->
+  <section id="services">
+    <div class="section-inner">
+      <div class="section-tag fade-up"><i class="fa-solid fa-wand-magic-sparkles"></i> What I offer</div>
+      <h2 class="section-title fade-up">Services <span>Offered</span></h2>
+      <p class="section-desc fade-up">From beautiful interfaces to solid logic — here's how I can contribute to your project.</p>
+
+      <div class="services-grid">
+        <div class="service-card glass fade-up">
+          <div class="service-num">01</div>
+          <div class="service-icon">🎨</div>
+          <div class="service-title">UI/UX Design Implementation</div>
+          <div class="service-desc">Creating visually appealing, accessible, and user-friendly interfaces with smooth animations, responsive layouts, and modern aesthetics using HTML, CSS, and JS.</div>
+        </div>
+        <div class="service-card glass fade-up fade-up-delay-1">
+          <div class="service-num">02</div>
+          <div class="service-icon">🅰️</div>
+          <div class="service-title">Angular Development</div>
+          <div class="service-desc">Building scalable, component-based web applications with Angular and TypeScript — clean architecture, services, and routing that scale well.</div>
+        </div>
+        <div class="service-card glass fade-up fade-up-delay-2">
+          <div class="service-num">03</div>
+          <div class="service-icon">📱</div>
+          <div class="service-title">Responsive Web Design</div>
+          <div class="service-desc">Crafting pixel-perfect, mobile-first layouts that work beautifully across all devices using Flexbox, CSS Grid, and fluid design principles.</div>
+        </div>
+        <div class="service-card glass fade-up fade-up-delay-3">
+          <div class="service-num">04</div>
+          <div class="service-icon">🔌</div>
+          <div class="service-title">REST API Integration</div>
+          <div class="service-desc">Connecting frontend apps to backend REST APIs, handling async data flows, authentication, and error states gracefully.</div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <div class="divider"></div>
+
+  <!-- ═══════════════════════════════════════════════════════════
+       CONTACT
+  ═══════════════════════════════════════════════════════════ -->
+  <section id="contact">
+    <div class="section-inner">
+      <div class="section-tag fade-up"><i class="fa-solid fa-paper-plane"></i> Get in touch</div>
+      <h2 class="section-title fade-up">Let's <span>Connect</span></h2>
+      <p class="section-desc fade-up">Open to fresher roles, internships, freelance projects, and collaborations. Let's build something great together.</p>
+
+      <div class="contact-grid">
+
+        <!-- Contact info -->
+        <div class="fade-up">
+          <div class="contact-info-item">
+            <div class="contact-icon"><i class="fa-solid fa-envelope"></i></div>
+            <div>
+              <div class="contact-info-label">Email</div>
+              <div class="contact-info-val"><a href="mailto:siddumudiraj789@gmail.com">siddumudiraj789@gmail.com</a></div>
+            </div>
+          </div>
+          <div class="contact-info-item">
+            <div class="contact-icon"><i class="fa-brands fa-github"></i></div>
+            <div>
+              <div class="contact-info-label">GitHub</div>
+              <div class="contact-info-val"><a href="https://github.com/siddumudhiraj" target="_blank">github.com/siddumudhiraj</a></div>
+            </div>
+          </div>
+          <div class="contact-info-item">
+            <div class="contact-icon"><i class="fa-brands fa-linkedin-in"></i></div>
+            <div>
+              <div class="contact-info-label">LinkedIn</div>
+              <div class="contact-info-val"><a href="https://www.linkedin.com/in/siddu-mudhiraj-440a23300/" target="_blank">linkedin.com/in/siddu-mudhiraj</a></div>
+            </div>
+          </div>
+          <div class="contact-info-item">
+            <div class="contact-icon"><i class="fa-solid fa-code"></i></div>
+            <div>
+              <div class="contact-info-label">LeetCode</div>
+              <div class="contact-info-val"><a href="https://leetcode.com/u/M8e2oyQW9s/" target="_blank">leetcode.com/u/M8e2oyQW9s</a></div>
+            </div>
+          </div>
+          <div class="contact-info-item">
+            <div class="contact-icon"><i class="fa-solid fa-location-dot"></i></div>
+            <div>
+              <div class="contact-info-label">Location</div>
+              <div class="contact-info-val">Hyderabad, Telangana, India</div>
+            </div>
+          </div>
+          <a href="https://drive.google.com/drive/folders/1OQH8lSsMJzxtncQwadA9IJpLT0F8NRPc" target="_blank" class="btn btn-primary" style="margin-top:0.5rem;">
+            <i class="fa-solid fa-file-arrow-down"></i> Download Resume
+          </a>
+        </div>
+
+        <!-- Contact form -->
+        <div class="contact-form-wrap glass fade-up fade-up-delay-1">
+          <div class="form-row">
+            <div class="form-group">
+              <label for="fname">First Name</label>
+              <input type="text" id="fname" placeholder="John" />
+            </div>
+            <div class="form-group">
+              <label for="lname">Last Name</label>
+              <input type="text" id="lname" placeholder="Doe" />
+            </div>
+          </div>
+          <div class="form-group">
+            <label for="email">Email Address</label>
+            <input type="email" id="email" placeholder="john@example.com" />
+          </div>
+          <div class="form-group">
+            <label for="subject">Subject</label>
+            <input type="text" id="subject" placeholder="Job opportunity / Collaboration / Project" />
+          </div>
+          <div class="form-group">
+            <label for="msg">Message</label>
+            <textarea id="msg" placeholder="Tell me about the opportunity or project..."></textarea>
+          </div>
+          <button class="btn btn-primary" id="sendBtn" style="width:100%; justify-content:center;">
+            <i class="fa-solid fa-paper-plane"></i> Send Message
+          </button>
+          <div class="form-success" id="formSuccess">
+            <i class="fa-solid fa-circle-check"></i> Message sent! I'll get back to you shortly.
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- ═══════════════════════════════════════════════════════════
+       FOOTER
+  ═══════════════════════════════════════════════════════════ -->
+  <footer>
+    <div class="footer-inner">
+      <div class="footer-top">
+        <div class="footer-brand">
+          <div class="footer-logo">VS.</div>
+          <div class="footer-tagline">Frontend Developer &amp; Java Enthusiast from Hyderabad, India. Open to opportunities.</div>
+        </div>
+        <div class="footer-links">
+          <h5>Navigation</h5>
+          <ul>
+            <li><a href="#home">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#skills">Skills</a></li>
+            <li><a href="#projects">Projects</a></li>
+            <li><a href="#contact">Contact</a></li>
+          </ul>
+        </div>
+        <div class="footer-links">
+          <h5>Projects</h5>
+          <ul>
+            <li><a href="https://github.com/siddumudhiraj/Projects/tree/main"               target="_blank">E-Commerce App</a></li>
+            <li><a href="https://github.com/siddumudhiraj/Projects/tree/main/Memory_game"    target="_blank">Memory Game</a></li>
+            <li><a href="https://github.com/siddumudhiraj/JPMorganChase-s-job-simulation"    target="_blank">JPMorgan Simulation</a></li>
+          </ul>
+        </div>
+        <div class="footer-socials-col">
+          <h5>Connect</h5>
+          <div class="footer-social-links">
+            <a href="https://github.com/siddumudhiraj"                         target="_blank" aria-label="GitHub">  <i class="fa-brands fa-github"></i></a>
+            <a href="https://www.linkedin.com/in/siddu-mudhiraj-440a23300/"    target="_blank" aria-label="LinkedIn"><i class="fa-brands fa-linkedin-in"></i></a>
+            <a href="https://leetcode.com/u/M8e2oyQW9s/"                       target="_blank" aria-label="LeetCode"><i class="fa-solid fa-code"></i></a>
+            <a href="mailto:siddumudiraj789@gmail.com"                                          aria-label="Email">  <i class="fa-solid fa-envelope"></i></a>
+          </div>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <div class="footer-copy">© 2024 <span>Vakiti Siddu</span>. Designed &amp; built with passion.</div>
+        <a href="#home" class="back-top" aria-label="Back to top"><i class="fa-solid fa-arrow-up"></i></a>
+      </div>
+    </div>
+  </footer>
+
+  <!-- Portfolio JavaScript -->
+  <script src="main.js"></script>
+
+</body>
+</html>
