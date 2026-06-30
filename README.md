@@ -16,11 +16,11 @@ I build clean, responsive, and user-centric web applications — and I'm activel
 
 ## 👨‍💻 About Me
 
-I'm a recent *B.Tech graduate in Computer Science (Data Science)* from Sri Indu College of Engineering & Technology, Hyderabad. I specialize in *Angular and TypeScript* for building responsive, production-quality frontend applications, backed by a strong foundation in *Java, Object-Oriented Programming (OOP), and Data Structures & Algorithms (DSA)*.
+I recently completed my **B.Tech in Computer Science (Data Science)** at Sri Indu College of Engineering & Technology, Hyderabad. I specialize in **Angular and TypeScript** for building responsive, production-quality frontends, backed by a solid foundation in **Java, Object-Oriented Programming, and Data Structures & Algorithms**.
 
 What drives me is the intersection of clean code and great user experience — I care as much about how an application *feels* to use as how well it's engineered under the hood. I'm comfortable working across the stack when needed, and I bring strong problem-solving instincts sharpened through consistent algorithmic practice on LeetCode.
 
-I'm currently open to **frontend developer roles, internships, and freelance opportunities** — particularly teams that value clean architecture and thoughtful UI.
+I'm currently open to **full-time roles, internships, and freelance opportunities** — particularly teams that value clean architecture and thoughtful UI.
 
 ---
 
