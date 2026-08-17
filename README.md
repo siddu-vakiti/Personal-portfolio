@@ -1,7 +1,7 @@
 <div align="center">
 
 # Hi, I'm Vakiti Siddu 👋
-### Frontend Developer · Angular & TypeScript | Java & DSA Enthusiast
+### .Net Developer · Angular & TypeScript | Java & DSA Enthusiast
 
 I build clean, responsive, and user-centric web applications — and I'm actively looking for my first full-time role where I can grow fast and contribute from day one.
 
